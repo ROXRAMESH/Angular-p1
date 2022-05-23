@@ -52,6 +52,7 @@ import {DrtViewComponent} from './components/cards/drt-view/drt-view.component';
 import {DartComponent} from './views/admin/dart/dart.component';
 import { GramanComponent } from './graman/graman.component';
 import { FormComponent } from './form/form.component';
+import { UploadpgComponent } from './uploadpg/uploadpg.component';
 
 @NgModule({
   declarations: [
@@ -94,6 +95,7 @@ import { FormComponent } from './form/form.component';
     Dashboard2Component,
     GramanComponent,
     FormComponent,
+    UploadpgComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
